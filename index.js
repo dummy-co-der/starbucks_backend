@@ -3,7 +3,6 @@ const app = express();
 const cors = require("cors");
 const authentication = require("./reg");
 const dotenv = require("dotenv");
-
 dotenv.config();
 app.use(cors());
 app.use(express.json());
